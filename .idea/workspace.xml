@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25bb9fd3-8761-4fdc-a1bf-5d3b5b656be4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aWFAppdY1OcLc9wsDWyDmxNFEs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/qa/pages" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.tests" />
+      <recent name="" />
+      <recent name="java.com.qa.tests" />
+      <recent name="tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/qa/pages" />
+      <recent name="$PROJECT_DIR$/src/test/resources/app" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./home/hp/Desktop/SmartCarRent/data.xml">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SmartCarRentTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="SmartCarRentTest" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.shouldClickOnSignUpButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartCarRentTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.HomeTest" />
+      <option name="METHOD_NAME" value="shouldClickOnSignUpButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/hp/Desktop/SmartCarRent/data.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartCarRentTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/data.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./home/hp/Desktop/SmartCarRent/data.xml" />
+        <item itemvalue="TestNG.HomeTest.shouldClickOnSignUpButton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25bb9fd3-8761-4fdc-a1bf-5d3b5b656be4" name="Default Changelist" comment="" />
+      <created>1586843301650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586843301650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="315" y="44" key="#Project_Structure" timestamp="1586857840537">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="315" y="44" key="#Project_Structure/65.24.1301.744@65.24.1301.744" timestamp="1586857840537" />
+    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586846192921">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/65.24.1301.744@65.24.1301.744" timestamp="1586846192921" />
+    <state width="1255" height="213" key="GridCell.Tab.0.bottom" timestamp="1586852867843">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="213" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1586852867843" />
+    <state width="1255" height="213" key="GridCell.Tab.0.center" timestamp="1586852867842">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="213" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
+    <state width="1255" height="213" key="GridCell.Tab.0.left" timestamp="1586852867842">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="213" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
+    <state width="1255" height="213" key="GridCell.Tab.0.right" timestamp="1586852867842">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="213" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
+    <state x="203" y="24" key="SettingsEditor" timestamp="1586857783125">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="203" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1586857783125" />
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586846871523">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1586846871523" />
+    <state x="384" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586851549619">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="384" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1301.744@65.24.1301.744" timestamp="1586851549619" />
+    <state x="360" y="121" width="869" height="590" key="find.popup" timestamp="1586845988887">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="360" y="121" width="869" height="590" key="find.popup/65.24.1301.744@65.24.1301.744" timestamp="1586845988887" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586847629107">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.24.1301.744@65.24.1301.744" timestamp="1586847629107" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SmartCarRent$_home_hp_Desktop_SmartCarRent_data_xml.ic" NAME="$PROJECT_DIR$/data.xml Coverage Results" MODIFIED="1586852740866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
