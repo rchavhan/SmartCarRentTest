@@ -2,32 +2,26 @@ package com.qa.pages;
 
 import com.qa.BaseTest;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class HomePage {
-    @AndroidFindBy(accessibility = "btSignUp") private MobileElement signUpButton;
-    @AndroidFindBy(accessibility = "btSignIn") private MobileElement signInButton;
+public class HomePage extends BaseTest{
+    @AndroidFindBy (accessibility = "com.example.cc14.smartcarrent:id/btnSignIn") private MobileElement signUP;
 
-    BaseTest baseTest;
-    public HomePage(){
-        baseTest = new BaseTest();
-        PageFactory.initElements(new AppiumFieldDecorator(baseTest.getDriver()),this);
+    public void click(MobileElement e){
+        waitforVisibility(e);
+        e.click();
     }
-    public RegistrationPage pressSignUpButton(){
-        getSignUpButton().click();
+public RegistrationPage press(){
+        click(signUP);
         return new RegistrationPage();
-    }
-    public MobileElement getSignUpButton() {
-        return signUpButton;
-    }
 
-    public LoginPage pressSignInButton(){
-        baseTest.click(signInButton);
-        return new LoginPage();
-    }
-    public MobileElement getSignInButton() {
-        return signInButton;
-    }
+
 }
+
+}
+

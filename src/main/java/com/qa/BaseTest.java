@@ -1,84 +1,41 @@
 package com.qa;
 
-import io.appium.java_client.AppiumDriver;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-
-import java.io.InputStream;
 import java.net.URL;
-import java.util.Properties;
 
 public class BaseTest {
-    protected AppiumDriver driver;
-    protected Properties props;
-    InputStream inputStream;
+    //public AndroidDriver<MobileElement> driver;
+    public AndroidDriver driver;
 
+    public WebDriverWait wait;
     public BaseTest(){
-
-    }
-    public void setDriver(AppiumDriver driver){
-        this.driver=driver;
-
-    }
-    public AppiumDriver getDriver(){
-        return driver;
+        PageFactory.initElements(new AppiumFieldDecorator(driver),this);
     }
     @BeforeTest
-    public void initialiseDriver(String platformName, String platformVersion, String deviceName) throws Exception{
-        try {
-            props = new Properties();
-            String propFileName = "config.properties";
-            inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
-            props.load(inputStream);
+    public void setup () throws Exception{
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("deviceName", "Android");
+        caps.setCapability("udid", "RZ8M7442VWR"); //DeviceId from "adb devices" command
+        caps.setCapability("platformName", "Android");
+        caps.setCapability("platformVersion", "9.0");
+        caps.setCapability("skipUnlock","true");
+        caps.setCapability("appPackage", "com.example.cc14.smartcarrent");
+        caps.setCapability("appActivity","com.example.cc14.smartcarrent.SplashScreenActivity");
+        caps.setCapability("noReset","false");
+        driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),caps);
+        wait = new WebDriverWait(driver, 10);
+    }
+    public void waitforVisibility(MobileElement e){
+        wait.until(ExpectedConditions.visibilityOf( e));
+    }
 
-            DesiredCapabilities cap = new DesiredCapabilities();
-
-            cap.setCapability("platformName", platformName);
-            cap.setCapability("platformVersion", platformVersion);
-            cap.setCapability("deviceName", deviceName);
-            cap.setCapability("automationName", props.getProperty("androidAutomationName"));
-            cap.setCapability("appPackage", props.getProperty("androidAppPackage"));
-            cap.setCapability("appActivity", props.getProperty("androidAppActivity"));
-            URL url = new URL(props.getProperty("appiumUrl"));
-            URL appURL =getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-            cap.setCapability("app",appURL);
-
-            driver = new AndroidDriver(url , cap);
-            String sessionId = driver.getSessionId().toString();
-
-        }catch (Exception e) {
-            e.printStackTrace();
-            throw e;
-        }
-    }
-    public void waitForVisibility(MobileElement e){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
-        webDriverWait.until(ExpectedConditions.visibilityOf(e));
-    }
-    public void click(MobileElement e){
-        waitForVisibility(e);
-        e.click();
-    }
-    /*
-    public void sendKeys(MobileElement e, String txt){
-        waitForVisibility(e);
-        e.sendKeys(txt);
-    }
-    public void getAttribute(MobileElement e, String attribute){
-        waitForVisibility(e);
-        e.getAttribute(attribute);
-    }
-*/
-    @AfterTest
-    public void quitDriver(){
-        driver.quit();
-    }
 }

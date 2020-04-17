@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25bb9fd3-8761-4fdc-a1bf-5d3b5b656be4" name="Default Changelist" comment="" />
+    <list default="true" id="25bb9fd3-8761-4fdc-a1bf-5d3b5b656be4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SmartCarRentTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/data1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/app/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/tests/HomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/tests/HomeTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,15 @@
         <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="SmartCarRentTestBranch2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aWFAppdY1OcLc9wsDWyDmxNFEs" />
   <component name="ProjectViewState">
@@ -22,25 +50,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/qa/pages" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ads" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.side.proportion" value="0.47241378" />
+    <property name="settings.editor.selected.configurable" value="project.validation" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.qa" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qa.tests" />
-      <recent name="" />
-      <recent name="java.com.qa.tests" />
-      <recent name="tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/qa/pages" />
@@ -48,56 +68,18 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.tests" />
+      <recent name="" />
+      <recent name="java.com.qa.tests" />
+      <recent name="tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG./home/hp/Desktop/SmartCarRent/data.xml">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="SmartCarRentTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="SmartCarRentTest" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTest.shouldClickOnSignUpButton" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomeTest.basicTest">
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SmartCarRentTest" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +89,51 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qa.tests.HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartCarRentTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.HomeTest" />
       <option name="METHOD_NAME" value="shouldClickOnSignUpButton" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.basicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartCarRentTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.HomeTest" />
+      <option name="METHOD_NAME" value="basicTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,19 +141,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/hp/Desktop/SmartCarRent/data.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTest.basicTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SmartCarRentTest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/data.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.HomeTest" />
+      <option name="METHOD_NAME" value="basicTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.HomeTest" />
+      <item itemvalue="TestNG.HomeTest.basicTest" />
+      <item itemvalue="TestNG.HomeTest.basicTest1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./home/hp/Desktop/SmartCarRent/data.xml" />
+        <item itemvalue="TestNG.HomeTest.basicTest" />
+        <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.HomeTest.basicTest1" />
         <item itemvalue="TestNG.HomeTest.shouldClickOnSignUpButton" />
       </list>
     </recent_temporary>
@@ -145,53 +186,167 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="50" key="#Custom_Plugin_Repositories" timestamp="1586937171246">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="309" y="50" key="#Custom_Plugin_Repositories/65.24.1301.744@65.24.1301.744" timestamp="1586937171246" />
+    <state x="372" y="31" key="#HomeTest" timestamp="1586941411784">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="372" y="24" key="#HomeTest.shouldClickOnSignUpButton" timestamp="1586942430063">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="372" y="24" key="#HomeTest.shouldClickOnSignUpButton/65.24.1301.744@65.24.1301.744" timestamp="1586942430063" />
+    <state x="372" y="31" key="#HomeTest/65.24.1301.744@65.24.1301.744" timestamp="1586941411784" />
     <state x="315" y="44" key="#Project_Structure" timestamp="1586857840537">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="315" y="44" key="#Project_Structure/65.24.1301.744@65.24.1301.744" timestamp="1586857840537" />
-    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586846192921">
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587110407692">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/65.24.1301.744@65.24.1301.744" timestamp="1586846192921" />
-    <state width="1255" height="213" key="GridCell.Tab.0.bottom" timestamp="1586852867843">
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744@65.24.1301.744" timestamp="1587110407692" />
+    <state x="329" y="93" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1586935096813">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1255" height="213" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1586852867843" />
-    <state width="1255" height="213" key="GridCell.Tab.0.center" timestamp="1586852867842">
+    <state x="329" y="93" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/65.24.1301.744@65.24.1301.744" timestamp="1586935096813" />
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1587105900291">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1255" height="213" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
-    <state width="1255" height="213" key="GridCell.Tab.0.left" timestamp="1586852867842">
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1587105900291" />
+    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586934905857">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1255" height="213" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
-    <state width="1255" height="213" key="GridCell.Tab.0.right" timestamp="1586852867842">
+    <state x="473" y="243" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/65.24.1301.744@65.24.1301.744" timestamp="1586934905857" />
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587040990377">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state width="1255" height="213" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1586852867842" />
-    <state x="203" y="24" key="SettingsEditor" timestamp="1586857783125">
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744" timestamp="1587040990377" />
+    <state x="503" y="141" key="FileChooserDialogImpl" timestamp="1587033911597">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="203" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1586857783125" />
-    <state x="376" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586846871523">
+    <state x="503" y="141" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1587033911597" />
+    <state width="1255" height="215" key="GridCell.Tab.0.bottom" timestamp="1587115953611">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="376" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1586846871523" />
-    <state x="384" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586851549619">
+    <state width="1255" height="215" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1587115953611" />
+    <state width="1255" height="215" key="GridCell.Tab.0.center" timestamp="1587115953610">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="384" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1301.744@65.24.1301.744" timestamp="1586851549619" />
+    <state width="1255" height="215" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1587115953610" />
+    <state width="1255" height="215" key="GridCell.Tab.0.left" timestamp="1587115953610">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1587115953610" />
+    <state width="1255" height="215" key="GridCell.Tab.0.right" timestamp="1587115953611">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1587115953611" />
+    <state width="1255" height="215" key="GridCell.Tab.1.bottom" timestamp="1587115802511">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.1.bottom/65.24.1301.744@65.24.1301.744" timestamp="1587115802511" />
+    <state width="1255" height="215" key="GridCell.Tab.1.center" timestamp="1587115802510">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.1.center/65.24.1301.744@65.24.1301.744" timestamp="1587115802510" />
+    <state width="1255" height="215" key="GridCell.Tab.1.left" timestamp="1587115802510">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.1.left/65.24.1301.744@65.24.1301.744" timestamp="1587115802510" />
+    <state width="1255" height="215" key="GridCell.Tab.1.right" timestamp="1587115802511">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="215" key="GridCell.Tab.1.right/65.24.1301.744@65.24.1301.744" timestamp="1587115802511" />
+    <state x="306" y="82" key="NewModule_or_Project.wizard" timestamp="1587015767259">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="306" y="82" key="NewModule_or_Project.wizard/65.24.1301.744@65.24.1301.744" timestamp="1587015767259" />
+    <state x="204" y="24" key="SettingsEditor" timestamp="1587029776788">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="204" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1587029776788" />
+    <state x="315" y="119" key="Vcs.Push.Dialog.v2" timestamp="1587117214080">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="315" y="119" key="Vcs.Push.Dialog.v2/65.24.1301.744@65.24.1301.744" timestamp="1587117214080" />
+    <state width="650" height="386" key="XDebugger.FullValuePopup" timestamp="1587104965797">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="650" height="386" key="XDebugger.FullValuePopup/65.24.1301.744@65.24.1301.744" timestamp="1587104965797" />
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586937487893">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="376" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1586937487893" />
+    <state x="384" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587108992664">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="384" y="24" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1301.744@65.24.1301.744" timestamp="1587108992664" />
+    <state x="154" y="24" width="950" height="508" key="dock-window-1" timestamp="1587040002466">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="154" y="24" width="950" height="508" key="dock-window-1/65.24.1301.744@65.24.1301.744" timestamp="1587040002466" />
     <state x="360" y="121" width="869" height="590" key="find.popup" timestamp="1586845988887">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="360" y="121" width="869" height="590" key="find.popup/65.24.1301.744@65.24.1301.744" timestamp="1586845988887" />
-    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586847629107">
+    <state x="65" y="87" key="new project wizard" timestamp="1587041258805">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.24.1301.744@65.24.1301.744" timestamp="1586847629107" />
+    <state x="65" y="87" key="new project wizard/65.24.1301.744@65.24.1301.744" timestamp="1587041258805" />
+    <state x="465" y="24" key="refactoring.ChangeSignatureDialog" timestamp="1587105906111">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="465" y="24" key="refactoring.ChangeSignatureDialog/65.24.1301.744@65.24.1301.744" timestamp="1587105906111" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1587110060427">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.24.1301.744@65.24.1301.744" timestamp="1587110060427" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/tests/HomeTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SmartCarRent$_home_hp_Desktop_SmartCarRent_data_xml.ic" NAME="$PROJECT_DIR$/data.xml Coverage Results" MODIFIED="1586852740866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SmartCarRentTest$HomeTest.ic" NAME="HomeTest Coverage Results" MODIFIED="1586941325749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.qa.tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
